@@ -1,0 +1,44 @@
+<head>
+  <title>Monster Me</title>
+</head>
+
+<body>
+  <header>
+      {{> header }}
+  <header>
+
+  {{> search }}
+  
+  {{> monsters }}
+
+  <footer>
+      <p>Made by @olizilla for Horniman Primary school Code Club, March 2014</p>
+    <img src="https://www.codeclub.org.uk/assets/logo-8f4e1ca6525af0d4b681e5bea5dbe3d6.svg" alt=""/>
+  </footer>
+</body>
+
+<template name="header">
+  <h1>Monster Me:
+    <span class="strap">{{strapline}}</span>
+  </h1>
+</template>
+
+<template name="monsters">
+  {{#if isEmpty}}
+    <h2>Create a monster</h2>
+  {{/if}}
+  {{#each allOfThem}}
+    <div class="stache">
+      <img src="{{img}}" />
+      <h2>{{name}}</h2>
+    </div>
+  {{/each}}
+</template>
+
+<template name="search">
+  <div class="search">
+    <form>
+        {<input id ="searchInput" type="search" placeholder="who's next?" />}
+    </form>
+  </div>
+</template>

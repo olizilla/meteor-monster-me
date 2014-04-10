@@ -1,0 +1,70 @@
+body{
+  font-family: "Museo Sans Rounded 300", Helvetica Neue, Helvetica, Arial,sans-serif;
+	padding:0;
+	margin:0;
+	background: #EEE;
+	text-align: center;
+  border-top:7px solid #d3e8d0;
+  background: #f8faf4;
+  color:#444;
+}
+h1{
+	background: #393;
+	color: #FFF;
+	margin:0;
+	font-size: 2em;
+	line-height: 1.8em;
+	padding: 4px 10px;
+  font-family: "Museo Sans Rounded 300", Helvetica Neue, Helvetica, Arial,sans-serif;;
+}
+h1 .strap{
+	font-style: italic;
+	font-size: smaller;
+}
+h2{
+	margin: 6px;
+	font-size: 2.4em;
+	text-transform: capitalize;
+}
+.search{
+	text-align: center;
+	font-size:4em;
+	margin-bottom: 20px;
+}
+#searchInput{
+	text-align: center;
+	font-size: 0.8em;
+	padding: 0.1em 0.6em;
+	border: 0 none;
+	border-bottom: 2px dotted #333;
+	border-radius: 0;
+  font-family: "Museo Sans Rounded 300", Helvetica Neue, Helvetica, Arial,sans-serif;;
+	background: inherit;
+  max-width: 80%;
+}
+#searchInput:focus{
+	outline: none
+}
+.stache {
+	display: inline-block;
+	width:30%;
+  min-width:300px;
+	vertical-align: top;
+	background: #FFF;
+	margin: 10px .2%;
+	padding:8px 8px 4px;
+	color: #444;
+}
+.stache img {
+	width:100%;
+	background: #333 url("http://www.netanimations.net/Moving-picture-winding-concentric-circles-animated-gif.gif") no-repeat;
+  background-size: cover;
+	border:solid 1px #EEE;
+	min-height: 50%;
+}
+footer{
+  display: block;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-bottom:7px solid #d3e8d0;
+}
